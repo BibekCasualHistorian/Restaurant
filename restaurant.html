@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./restaurant.css">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/685/685352.png" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Smythe font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header" id="header">
+        <h1>Bibek's Diner</h1>
+        <p>The best burgers and pizzas in town.</p>
+    </header>
+
+    <main class="main" id="main"></main>
+
+    <section class="section" id="section">
+        <h1>Your Order</h1>
+        <div class="orders" id="orders"></div>
+        <hr>
+        <div class="total-order" id="total-order">
+            <h1>Total</h1>
+            <h3 class="total-price" id="total-price"></h3>
+        </div>
+        <button class="submit-order" id="submit-order">Complete Order</button>
+    </section>
+
+    <form action="" class="form" id="form">
+        <h1>Enter Card details</h1>
+        <input type="text" name="names" required aria-label="fa" placeholder="Enter your name" required>
+        <input type="number" name="cardnumber" id="" aria-label="fa" required placeholder="Enter card number">
+        <input type="number" name="cvvnumber" id="" aria-label="fa" required placeholder="Enter CVV">
+        <button type="submit" class="complete-order" id="complete-order">Pay</button>
+    </form>
+
+    <section class="end" id="end">
+        <h2>Thanks, <span class="form-name" id="form-name"></span> Your Order is on the way</h2>
+    </section>
+
+    <script src="./restaurant.js" type="module"></script>
+</body>
+</html>

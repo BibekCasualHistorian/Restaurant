@@ -1,0 +1,189 @@
+
+html {
+    background-color: pink;
+    font-size: 16px;
+    font-family: 'Smythe', cursive;
+}
+
+body {
+    background-color: white;
+    margin: auto;
+    padding-bottom: 3em;
+    width: 600px;
+}
+
+/* Header */
+
+header {
+    padding: 1em 2em;
+    color: white;
+    background: black url("./images/burger.png") no-repeat;
+    background-size: cover;
+    background-size: 100% 170px;
+    margin-bottom: 1.5em;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+/* Main */
+
+main {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.each-menu {
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEDEDE;
+}
+.each-menu-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.info {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.ingredients {
+    color: #8B8B8B;
+    margin: 0;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+}
+
+.add i {
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.add i:hover {
+    border: black 1px solid;
+}
+
+/* Section */
+
+section {
+    display: none;
+    margin: auto;
+    width: 500px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.moderator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-box {
+    display: flex;
+    justify-content: start;
+}
+
+.order-box button {
+    color: #BBBBBB;
+    background: none;
+    border: none;
+    margin-left: 0.5em;
+}
+
+.total-order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section hr {
+    color: black;
+    margin-bottom: 1em;
+}
+
+.submit-order {
+    margin: 0 auto;
+    color: white;
+    font-size: larger;
+    background-color: #16DB99;
+    margin: 0.5em auto;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+}
+
+/* Form */
+
+form {
+    box-shadow: 0px 0px 8px black;
+    background-color: white;
+    position: fixed;
+    padding-left: auto;
+    padding-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 0.5em;
+}
+
+.form input,.form button {
+    cursor: pointer;
+    padding-left: 0.5em;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 1em;
+    border: #757575 solid 1px;
+}
+
+.form button {
+    border: none;
+    background-color: #16DB99;
+    margin-bottom: 2.5em;
+}
+/* End */
+
+.end {
+    text-align: center;
+    display: none;
+}
